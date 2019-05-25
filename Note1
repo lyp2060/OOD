@@ -1,0 +1,16 @@
+solid principles
+S: single responsibility principle
+O: open close principle
+  对象或实体应该对扩展开放，对修改封闭 （open to extension, close to modification）
+Liskov substitution principle 里氏替换原则
+  任何一个子类或派生类应该可以替换它们的基类或父类
+interface segregation principle 接口分离原则
+  不应该强迫一个类实现它用不上的接口
+  
+Dependency inversion principle 依赖翻转原则
+  抽象不应该依赖于具体实现，具体实现应该依赖于抽象
+  high level 的实体不应该依赖于low level 的实体
+
+5C:
+  caarify, core objects, cases, classes, correctness
+  
