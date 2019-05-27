@@ -43,3 +43,17 @@ public class Parking Lot {
     return _instance;
   }
 }
+
+以下方法更好，线程更安全，更快
+
+public class ParkingLot
+{
+  private ParkingLot() {}
+  private static class LazyParkingLot {# 在编译的时间就构建了
+    static final ParkingLot _instance = new ParkingLot();#final 保证外部其他的线程进行改变
+  }
+  public static ParkingLot getInstnace()
+  {
+    return LazyParkingLot._instance()
+  }
+}
