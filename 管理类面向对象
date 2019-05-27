@@ -35,7 +35,7 @@ public class Parking Lot {
   private ParkingLot() {
     levels = new ArrayList<level>();
   }
-  public static ParkingLot getInstance()
+  public static synchronized ParkingLot getInstance() ;# 给线程枷锁
   {
     if (_instance==Null) {
       _instance = new ParkingLot();
