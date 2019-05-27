@@ -57,3 +57,5 @@ public class ParkingLot
     return LazyParkingLot._instance()
   }
 }
+
+类在static 时，编译会运行他
