@@ -1,0 +1,30 @@
+strategy pattern
+  算法/startegies 之间可以相互替换
+  有很多if-else的情况，可以用config的strategy
+  工厂类专门生产strategy
+  不要用temp 来取名字
+  
+管理列：OOD 高频，难度中等
+  GYM
+  Parking LOT 
+  Restaurant
+  library
+  Super market
+  Hotel
+
+parking lot:
+  考虑input 和 output是什么
+  
+ 几层parking lot?一个车位有几层？
+ list of parking lot
+ list of parking level, evey level has parking lot number
+ 
+ 哪几种类型parking lot,残爬？
+
+vehicle:
+  motocycle, bus, car,电车
+  
+
+ 
+
+ 
