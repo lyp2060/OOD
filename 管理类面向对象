@@ -28,3 +28,18 @@ vehicle:
  
 
  
+public class Parking Lot {
+  private static ParkingLot _instance = Null;
+  private List<level> levels;
+  
+  private ParkingLot() {
+    levels = new ArrayList<level>();
+  }
+  public static ParkingLot getInstance()
+  {
+    if (_instance==Null) {
+      _instance = new ParkingLot();
+    }
+    return _instance;
+  }
+}
