@@ -59,3 +59,5 @@ public class ParkingLot
 }
 
 类在static 时，编译会运行他
+
+booking system 基本上要用到cache,要提一下
