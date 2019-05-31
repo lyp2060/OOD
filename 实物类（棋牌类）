@@ -1,0 +1,30 @@
+state design pattern
+  用来解决一些if else过多的情况
+  
+builder design pattern 
+
+decorator design pattern
+  decorator pattern allows a user to add new functionality to an existing object without altering its structure. This type of design pattern
+comes under structure pattern as this pattern acts as a wrapper to existing class
+
+Factory design pattern
+  
+board:棋盘
+hand:手牌，指手上的所有牌
+Suit:花色
+dealer:发牌人
+
+Initiazliation: 洗牌
+play:出牌，下棋
+win/lose check 胜负结算，+Tie 流局
+
+洗牌的算法题: shuffle-cards
+
+design pattern summary
+
+SingleTon
+Strategy
+Adapter
+State
+Decorator
+Factory
